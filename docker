@@ -1,0 +1,6 @@
+docker build -t my-python-app .
+docker run my-python-app
+
+docker build -t io/my-python-app:latest -f Dockerfile .
+docker push io/my-python-app:latest
+docker push io/my-python-app:latest
